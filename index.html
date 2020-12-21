@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Accueil</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- <script type="text/javascript" src="bootstrap/assets/js/vendor/jquery-slim.min.js"></script>
+	<script type="text/javascript" src="bootstrap/assets/js/vendor/popper.min.js"></script> -->
+	<!-- <script type="text/javascript" src="bootstrap.min.js"></script> -->
+	<!-- <script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script> -->
+</head>
+<body>
+	<div>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		  <a class="navbar-brand col-lg-7" href="#"><img src="image/logo.png" style="width: 150px; height: 60px;"></a>
+		  <ul class="navbar-nav col-lg-5">
+		    <li class="nav-item">
+		      <a class="nav-link" href="#">Achat</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="#">Louer</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="#">Service</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="#">FAQ</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="#">Nous contacter</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="#">Langue</a>
+		    </li>
+		  </ul>
+		</nav>
+	</div>
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ul>
+	  
+		<div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="image/slide1-back.jpg" alt="slide1-back" width="100%" height="400">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="image/slide3-back.jpg" alt="slide1-back" width="100%" height="400">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="image/slide1-back.jpg" alt="slide1-back" width="100%" height="400">
+		    </div>
+		</div>
+		<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+	</div>
+	<div class="container">
+		<div >
+			<p class="slogan">Simara Properties</p>
+			<p class="description">Offez vous une résidence en toute sérénité.</p>
+		</div> 
+		<div class="trouvez">
+			<div>
+				<form>
+				    <div class="form-group">
+				    	<div class="row col-lg-12">
+					    	<div class="col-lg-4">
+						      <label for="sel1">Statut</label>
+						      <select class="form-control" id="sel1">
+								<option>Choisir un option</option>
+						        <option>A vendre</option>
+						        <option>A louer</option>
+						      </select>
+					      	</div>
+					      
+					      <div class="col-lg-4">
+						      <label for="sel2">Chambre</label>
+						      <select  class="form-control" id="sel2">
+								<option>Choisir un option</option>
+								<option>1</option>
+						        <option>2</option>
+						        <option>3</option>
+						        <option>4</option>
+						        <option>5</option>
+						      </select>
+					      </div>
+					      
+					      <div class="col-lg-4">
+						      <label for="sel3">Propriété</label>
+						      <select class="form-control" id="sel3">
+								<option>Choisir un option</option>
+						        <option>Terrain industriel</option>
+						        <option>Terrain agricole</option>
+						        <option>Front de mer</option>
+						      </select>
+					      </div>
+				      </div>
+
+				      
+				      <div class="row col-lg-12">
+					      <div class="col-lg-4">
+						      <label for="sel4">Région</label>
+						      <select class="form-control" id="sel4">
+						        <option>1</option>
+						        <option>2</option>
+						        <option>3</option>
+						        <option>4</option>
+						        <option>5</option>
+						      </select>
+					      </div>
+			
+					      <div class="col-lg-4">
+						      <label for="sel5">Budget</label>
+						      <select class="form-control" id="sel5">
+						        <option>1</option>
+						        <option>2</option>
+						        <option>3</option>
+						        <option>4</option>
+						        <option>5</option>
+						      </select>
+					      </div>
+					    <div class="col-lg-4" style="margin-top: 33px;">
+							<input class="form-control bg-danger" type="submit" value="Recherche" >
+					    </div>
+					</div>
+				</div>
+				</form>
+			</div>
+			
+		</div>
+		<div class="sec2">
+			<hr>
+			<h4 class="text-uppercase">propriétés à louer</h4>
+			<div class="row">
+				<div class="col-lg-4">
+					<img src="image/france.png" class="img-fluid">
+					<p class="text-center">A louer</p>
+					<p class="text-left">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+					<button class="btn btn-primary col-lg-12">Détail</button>
+				</div>
+				<div class="col-lg-4">
+					<img src="image/france.png" class="img-fluid">
+					<p class="text-center">A louer</p>
+					<p class="text-left">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+					<button class="btn btn-primary col-lg-12">Détail</button>
+				</div>
+				<div class="col-lg-4">
+					<img src="image/france.png" class="img-fluid">
+					<p class="text-center">A louer</p>
+					<p class="text-left">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+					<button class="btn btn-primary col-lg-12">Détail</button>
+				</div>				
+			</div>	
+			<div class="form-row text-center">
+				<div class="col-12">
+					<button type="submit" class="btn bg-success btn-block">Voir plus</button>
+				</div>
+			 </div>
+		</div>
+		<hr>
+			<h4 class="text-uppercase">propriétés à vendre</h4>
+			<div class="row">
+				<div class="col-lg-4">
+					<img src="image/france.png" class="img-fluid">
+					<p class="text-center">A vendre</p>
+					<p class="text-left">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+					<button class="text-uppercase btn btn-primary col-lg-12">détail</button>
+				</div>
+				<div class="col-lg-4">
+					<img src="image/france.png" class="img-fluid">
+					<p class="text-center">A vendre</p>
+					<p class="text-left">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+					<button class="text-uppercase btn btn-primary col-lg-12">détail</button>
+				</div>
+				<div class="col-lg-4">
+					<img src="image/france.png" class="img-fluid">
+					<p class="text-center">A vendre</p>
+					<p class="text-left">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+					<button class="text-uppercase btn btn-primary col-lg-12">détail</button>
+				</div>
+			</div>
+			<div class="form-row text-center">
+				<div class="col-12">
+					<button type="submit" class="btn bg-success btn-block">Voir plus</button>
+				</div>
+			 </div>
+	</div>
+</body>
+</html>

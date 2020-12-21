@@ -1,0 +1,23 @@
+.slogan{
+	margin-top: 25px;
+	text-align: center;
+	color: #303030;
+	font-weight: bold;
+	font-size: 25px;
+}
+.description{
+	text-align: center;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.titre{
+	margin-top: 25px;
+	text-decoration: underline;
+	border-style: solid 2px red;
+}
+.image{
+	/* margin-left: 25px; */
+	width: 300px;
+	height: 200px;
+}
